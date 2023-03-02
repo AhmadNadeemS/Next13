@@ -5,9 +5,6 @@ import ErrorGenerator from "@/components/ErrorGenerator";
 import { notFound } from "next/navigation";
 
 export default function Home() {
-  if (true) {
-    notFound();
-  }
   return (
     <div className="ml-64">
       <div>
